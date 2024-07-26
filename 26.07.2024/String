@@ -1,0 +1,4 @@
+first_name = "Arshii"
+age = 18
+
+print(f"Hi, I'm {first_name} and I'm {age} years old!")
