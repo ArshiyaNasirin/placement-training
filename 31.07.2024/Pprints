@@ -1,0 +1,10 @@
+import pprint 
+  
+ text = "Hello everyone this is arshii, currently pursuing engineering in Ksrct and completed schooling in anthiyur" 
+  
+ counts = {} 
+ for word in text.split(): 
+     counts.setdefault(word, 0) 
+     counts[word] += 1 
+  
+ pprint.pprint(counts)
