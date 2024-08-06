@@ -1,0 +1,10 @@
+def trapezium_pattern(height, top_width, bottom_width):
+    if bottom_width < top_width:
+        print("Bottom width must be greater than or equal to top width.")
+        return
+
+    step = (bottom_width - top_width) // (height - 1)
+
+    for i in range(height):
+        current_width = top_width + i * step
+        print('*' * current_width)
